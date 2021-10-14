@@ -1,0 +1,156 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: lightgray;
+  height: 100%;
+}
+
+.main {
+  position: relative;
+}
+
+.header {
+  display: flex;
+  height: 60px;
+  background: brown;
+}
+
+.header img {
+  height: 50px;
+  width: 50px;
+  float: left;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.header h3 {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  color: white;
+}
+
+.header a {
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+}
+
+.header a:hover {
+  color: yellow;
+}
+
+.navigasi {
+  height: 60px;
+  width: auto;
+  float: left;
+  display: flex;
+  margin-left: 520px;
+}
+
+.navigasi ul {
+  list-style: none;
+  float: left;
+  display: flex;
+  align-items: center;
+}
+
+.navigasi a {
+  padding-left: 20px;
+  text-decoration: none;
+  color: white;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.navigasi a:hover {
+  color: yellow;
+}
+
+.cari {
+  margin: 20px 0 20px 20px;
+  border-color: gray;
+  height: 17px;
+  width: 150px;
+  background: white;
+  border-radius: 5px;
+  outline: brown;
+}
+
+.btn-button {
+  height: 23px;
+  width: 50px;
+  border-radius: 5px;
+  background: white;
+  border-color: gray;
+}
+
+.content-bar {
+  height: auto;
+  width: auto;
+  display: flex;
+}
+
+.left-bar {
+  height: auto;
+  width: 75%;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.right-bar {
+  height: auto;
+  width: 25%;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+h2 {
+  padding-left: 10px;
+  font-style: oblique;
+  text-decoration: underline;
+}
+
+.left-bar table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: auto;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.right-bar img {
+  height: 50px;
+  width: 50px;
+}
+
+.right-bar table,
+th,
+td {
+  border-collapse: collapse;
+}
+
+.right-bar a {
+  color: blue;
+}
+
+p {
+  text-align: justify;
+}
+
+.footer {
+  height: 100%;
+  width: 100%;
+  background: brown;
+  text-align: center;
+  bottom: 0px;
+}
+
+.footer p,
+a {
+  color: white;
+  text-align: center;
+}
